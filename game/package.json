@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "shared": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0-beta.13"
   }
 }
