@@ -1,0 +1,6 @@
+packages:
+  - "shared"
+  - "database"
+  - "server"
+  - "editor"
+  - "game"

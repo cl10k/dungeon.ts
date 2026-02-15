@@ -1,0 +1,35 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  database:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  editor:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  game:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  server:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+
+  shared: {}
