@@ -1,6 +1,9 @@
 packages:
-  - "shared"
-  - "database"
-  - "server"
-  - "editor"
-  - "game"
+  - shared
+  - database
+  - server
+  - editor
+  - game
+
+ignoredBuiltDependencies:
+  - esbuild
