@@ -6,7 +6,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "pnpm -r run typecheck"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@types/node": "^24.10.13",
     "cspell": "^9.6.4",
     "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
     "globals": "^16.5.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
