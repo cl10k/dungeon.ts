@@ -1,2 +1,16 @@
-// to be extended by each sub-project
-{}
+//? https://www.typescriptlang.org/tsconfig
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true, //?
+    "noImplicitOverride": true, //?
+    "noFallthroughCasesInSwitch": true,
+
+    "skipLibCheck": true,
+    "checkJs": false
+  }
+}
