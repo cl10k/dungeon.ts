@@ -15,19 +15,19 @@
   "packageManager": "pnpm@10.30.1",
   "devDependencies": {
     "@cspell/cspell-types": "^9.6.4",
-    "@eslint/js": "^9.39.2",
-    "@types/node": "^24.10.13",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.3.0",
     "cspell": "^9.6.4",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^16.5.0",
+    "globals": "^17.3.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.55.0"
+    "typescript-eslint": "^8.56.0"
   },
   "pnpm": {
     "overrides": {
-      "vite": "^8.0.0-beta.13"
+      "vite": "^8.0.0-beta.15"
     }
   }
 }
