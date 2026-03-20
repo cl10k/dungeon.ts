@@ -1,5 +1,6 @@
 //! consider this section about monorepos https://typescript-eslint.io/troubleshooting/typed-linting/monorepos
 
+//! does not do anything right now in the projects. test with var test = 10;
 // @ts-check
 
 import eslint from "@eslint/js";
