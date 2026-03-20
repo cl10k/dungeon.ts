@@ -5,6 +5,7 @@
  * @type {import("prettier").Config}
  */
 export default {
-  bracketSpacing: false,
   printWidth: 120,
+  bracketSpacing: false,
+  objectWrap: "collapse",
 };
