@@ -17,6 +17,6 @@
     "shared": "workspace:*"
   },
   "devDependencies": {
-    "vite": "^8.0.0-beta.15"
+    "vite": "^8.0.1"
   }
 }
